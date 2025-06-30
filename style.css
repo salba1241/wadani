@@ -1,0 +1,375 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 15px;
+   
+
+}
+.btn{
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.container ul {
+    display: flex;
+   
+
+}
+.container ul li{
+    padding: 10px 30px;
+      list-style-type: none;
+}
+
+ul li a{
+  
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hero-section .container{
+    width: 90%;
+    margin-top: 2rem;
+   
+   
+    
+}
+
+   
+  
+    
+
+.text-hero h1{
+     margin: 10px;
+}
+
+.text-hero p{
+    margin: 10px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.btn-primary{
+    background: rgb(16, 197, 221);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.btn-secondary{
+     background: rgb(245, 107, 144);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.image{
+    width: 180px;
+    border-radius: 15px;
+    margin-left: 10rem;
+ 
+    
+   
+    
+}
+
+.content{
+    display: flex;
+    margin-left: 7rem;
+    padding-left: 30px;
+    margin-top: 4rem;
+    
+   
+
+}
+.menu-icon{
+    display: none;
+}
+
+
+.Testimonal{
+    text-align: center;
+    margin-top: 10rem;
+    background-color: rgb(3, 31, 32);
+    width: 100%;
+    height: 350px;
+}
+
+.Testimonal h2{
+    font-size: 30px;
+    color: aliceblue;
+    padding: 20px;
+
+}
+
+
+.col-1{
+    width: 250px;
+    background-color: aliceblue;
+}
+.col-1 p{
+    padding: 10px 10px;
+}
+
+.Testimonal-col{
+    display: flex;
+    gap: 20px;
+    margin-left: 20%;
+}
+
+@media(max-width:600px){
+
+    nav{
+        background-color: aqua;
+    }
+
+    .container ul {
+        position: absolute;
+        flex-direction: column;
+        top: 25px;
+        right: 0;
+        left: 0;
+        background-color: aquamarine;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+       
+      
+
+        
+    }
+    ul li{
+        padding: 20px;
+    }
+    .text-hero p{
+        font-size: 15px;
+        width: 300px;
+        
+    }
+    .content{
+        flex-direction: column;
+        margin: 5px;
+    }
+    .image{
+        margin-top: 2.2rem;
+        margin-right: 5%;
+    }
+
+    .menu-icon{
+    display: block;
+    font-size: 30px;
+    margin-left: 5rem;
+}
+
+#MenuList{
+    transition: all 0.5s;
+}
+
+.Testimonal-col{
+    flex-direction: column;
+}
+.Testimonal{
+     width: 100%;
+    height: 700px;
+}
+
+.faqi{
+    text-align: center;
+    margin-top: 7rem;
+   
+}
+.questions-containe{
+    width: 300px;
+}
+
+.footer-col{
+    font-size: 10px;
+}
+
+.about p {
+    
+  text-align: left;
+  width: 1%;
+  
+    
+    
+}
+
+label{
+    display:block;
+    margin-bottom: 5px;
+    font-family: 300;
+    font-size: 20px;
+    margin-left: 7rem;
+   
+}
+
+
+
+}
+
+
+/* ---------faqi----- */
+.faqi{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.faqi h3{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.quesation-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.question{
+    border-bottom: 1px solid #fff;
+}
+
+
+.question button{
+    width: 100%;
+    display: flex;
+    background: #000;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    padding: 20px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.question p{
+    font-size: 22px;
+    max-height: 0;
+    line-height: 1.5;
+    opacity: 0;
+    overflow: hidden;
+}
+/* ---------faqi----- */
+
+/* -----footer---- */
+.footer{
+    background: rgb(63, 62, 62);
+    width: 100%;
+    height: 200px;
+    margin-top: 5rem;
+}
+
+.footer-col{
+    color: #fff;
+    display: flex;
+    padding: 3rem;
+    
+
+}
+
+.footer-col P{
+    margin-left: 20%;
+    font-size: 18px;
+}
+
+/* -----footer---- */
+
+
+/* ------about page------ */
+.about{
+    text-align: center;
+    margin-top: 18rem;
+}
+
+.about p{
+    width: 800px;
+    margin-left: 16%;
+    line-height: 30px;
+    margin-top: 3rem;
+  
+}
+
+.about h3{
+    font-size: 35px;
+}
+.about h1{
+    font-size: 20px;
+}
+
+/* --------contact----- */
+.contact{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.contact h3{
+    font-size: 20px;
+    margin: 1.2rem;
+}
+
+.contact p{
+    font-size: 30px;
+    font-weight:400 ;
+    margin: 1.2rem;
+}
+
+
+
+form {
+    margin-top: 70px;
+}
+
+label{
+    display:block;
+    margin-bottom: 5px;
+    font-family: 500;
+    font-size: 23px;
+   margin-right: 39rem;
+}
+
+
+form input, form textarea{
+ border: none;
+ outline: none;
+ width: 50%;
+ padding: 20px;
+ resize: none;
+ color: #f3f1f1;
+ font-size: 14px;
+ background-color: rgb(54, 53, 53);
+ margin: 7px;
+}
+
+
+.Submit{
+    background-color: brown;
+    color: aliceblue;
+    padding: 10px 50px;
+    font-size: 20px;
+    border: none;
+    align-items: center;
+    /* margin-left: 17%; */
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}

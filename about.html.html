@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+
+             <div class="logo"><h1>Salba</h1></div>
+ 
+        <ul id="MenuList">
+           
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+           <li class="btn"><i class="fa fa-user"></i><a href="login.html">login</a></li>
+          
+            
+        </ul>
+        <div class="menu-icon"><i class="fa fa-bars" onclick="toggleMenu()"></i></div>
+        
+        </div>
+       
+    </nav>
+
+
+    <script>
+            let MenuList = document.getElementById("MenuList")
+MenuList.style.maxHeight = "0px";
+
+function toggleMenu(){
+    if(MenuList.style.maxHeight == "0px")
+
+
+
+
+        {
+        MenuList.style.maxHeight = "300px";
+
+        }
+        else{
+            MenuList.style.maxHeight = "0px";
+        }
+
+
+        
+    
+}
+    </script>
+
+    <div class="about">
+        <h1>about</h1>
+        <h3>Salba Academy</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur bradipisicing elit. 
+            Nobis nostrum tempore eligendi enim id ullam facilis minus! Ad cumque <br>sed reprehenderit,
+             impedit 
+            eum facere  ducimus fugit nemo quae. Nihil, tenetur?
+        
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Nobis nostrum tempore eligendi enim id ullam facilis minus! <br> Ad cumque sed reprehenderit,
+             impedit 
+            eum facere ducimus fugit nemo quae. Nihil, tenetur?</p>
+    </div>
+
+  
+
+   
+
+
+
+   
+
+
+
+
+      <footer class="footer">
+        <div class="footer-col">
+            <h2>Salba Academy</h2>
+
+            <p>CopyRight@2025.Allright Reseres by salba</p>
+
+
+            <div class="icons">
+                
+              
+            </div>
+        </div>
+
+
+      </footer>
+
+
+   
+    
+</body>
+
+</html>
